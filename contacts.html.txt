@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Форма для обратной связи">
+    <meta name="keywords" content="Контакты, форма, сообщение">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+</head>
+<body>
+
+    <!-- Заголовок страницы -->
+    <h1>ФИО:Пшибес Ксения Александровна</h1>
+    <h2>Написать мне</h2>
+
+    <!-- Форма для связи -->
+    <form action="#" method="post">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+        <p>Как к вам обращаться:</p>
+        <input type="radio" id="mr" name="title" value="mr">
+        <label for="mr">Уважаемый</label><br>
+        <input type="radio" id="ms" name="title" value="ms">
+        <label for="ms">Уважаемая</label><br><br>
+
+        <label for="subject">Тема письма:</label><br>
+        <select id="subject" name="subject">
+            <option value="complaint">Жалоба</option>
+            <option value="suggestion">Предложение</option>
+            <option value="friendship">Дружба</option>
+            <option value="project">Совместный проект</option>
+        </select><br><br>
+
+        <label for="message">Сообщение:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <label for="file">Прикрепить файл:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">Я согласен на обработку персональных данных</label><br><br>
+
+        <input type="submit" value="Отправить письмо">
+    </form>
+
+    <!-- Навигационные ссылки -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="interests.html">У

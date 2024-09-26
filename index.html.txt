@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Визитная карточка с основной информацией обо мне">
+    <meta name="keywords" content="ФИО, место обучения, направление обучения, профиль обучения">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя визитная карточка</title>
+</head>
+<body>
+
+    <!-- Заголовок страницы -->
+    <h1>ФИО:Пшибес Ксения Александровна</h1>
+    <h2>Направление подготовки: Программная информатика</h2>
+    <h3>Профиль: Управление проектами разработки бизнес-приложений для цифровой экономики</h3>
+
+    <!-- Изображение -->
+    <img src="images/myphoto.jpg" alt="Моя фотография" width="200">
+
+    <!-- Основная информация -->
+    <p><strong>Дата рождения:</strong> 21 октября 2005 года</p>
+    <p><strong>Университет:</strong> МГТУ им. Носова</p>
+    <p><strong>Город рождения:</strong> Магнитогорск</p>
+    <p><strong>Телефон:</strong> +7 (982)331-30-32</p>
+    <p><strong>Электронная почта:</strong> pshibesksusha@mail.ru</p>
+
+    <!-- Социальные сети -->
+    <p>Социальные сети:
+        <a href="https://vk.com/ksusha_161214" target="_blank">ВКонтакте</a>
+    </p>
+
+    <!-- Навигационные ссылки -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="interests.html">Увлечения</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
